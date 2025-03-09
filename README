@@ -1,0 +1,28 @@
+
+----------Server--------------
+npm init -y
+npm install express morgan body-parser cors nodemon multer dotenv
+
+npm install prisma
+npx prisma init
+npm install @prisma/client
+
+
+npx prisma migrate dev --name workshop1_init
+//Prisma schema
+npx prisma migrate dev
+
+-----------Client-------------
+npm create vite@latest .
+-client
+-javascript
+
+npm install
+npm run dev
+npm install axios
+============
+MySql
+
+mysql://root:1234@localhost:3306/multer
+
+
