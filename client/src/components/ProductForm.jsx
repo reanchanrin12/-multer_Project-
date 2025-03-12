@@ -39,7 +39,7 @@ const ProductForm = () => {
       <input type="number" name="price" placeholder="Price" required onChange={handleChange} className="border p-2 w-full mb-2" />
       <textarea name="description" placeholder="Description" required onChange={handleChange} className="border p-2 w-full mb-2"></textarea>
       <input type="file" name="image" accept="image/*" required onChange={handleChange} className="border p-2 w-full mb-2" />
-      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
+      <button type="submit" className="bg-blue-500 cursor-pointer text-white px-4 py-2 rounded">
         Add Product
       </button>
 
